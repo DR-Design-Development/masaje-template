@@ -1,46 +1,43 @@
-@import "variables";
-
-
 @font-face {
   font-family: 'AGaramondPro-Regular';
-  src:  url('../../components/assets/fonts/app-core-styles/fonts/AGaramondPro-Regular.eot');
-  src:  url('../../components/app-core-styles/fonts/AGaramondPro-Regular.eot?#iefix') format('embedded-opentype'),
-  url('../../components/app-core-styles/fonts/AGaramondPro-Regular.woff2') format('woff2'),
-  url('../../components/app-core-styles/fonts/AGaramondPro-Regular.woff') format('woff'),
-  url('../../components/app-core-styles/fonts/AGaramondPro-Regular.ttf') format('truetype');
+  src:  url('assets/fonts/AGaramondPro-Regular.eot');
+  src:  url('assets/fonts/AGaramondPro-Regular.eot?#iefix') format('embedded-opentype'),
+  url('assets/fonts/AGaramondPro-Regular.woff2') format('woff2'),
+  url('assets/fonts/AGaramondPro-Regular.woff') format('woff'),
+  url('assets/fonts/AGaramondPro-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'AGaramondPro-Bold';
-  src:  url('../../components/assets/fonts/app-core-styles/fonts/AGaramondPro-Bold.eot');
-  src:  url('../../components/app-core-styles/fonts/AGaramondPro-Bold.eot?#iefix') format('embedded-opentype'),
-  url('../../components/app-core-styles/fonts/AGaramondPro-Bold.woff2') format('woff2'),
-  url('../../components/app-core-styles/fonts/AGaramondPro-Bold.woff') format('woff'),
-  url('../../components/app-core-styles/fonts/AGaramondPro-Bold.ttf') format('truetype');
+  src:  url('assets/fonts/AGaramondPro-Bold.eot');
+  src:  url('assets/fonts/AGaramondPro-Bold.eot?#iefix') format('embedded-opentype'),
+  url('assets/fonts/AGaramondPro-Bold.woff2') format('woff2'),
+  url('assets/fonts/AGaramondPro-Bold.woff') format('woff'),
+  url('assets/fonts/AGaramondPro-Bold.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'DINWeb-CondMedium';
-  src:  url('../../components/assets/fonts/app-core-styles/fonts/DINWeb-CondMedium.eot');
-  src:  url('../../components/app-core-styles/fonts/DINWeb-CondMedium.eot?#iefix') format('embedded-opentype'),
-  url('../../components/app-core-styles/fonts/DINWeb-CondMedium.woff2') format('woff2'),
-  url('../../components/app-core-styles/fonts/DINWeb-CondMedium.woff') format('woff'),
-  url('../../components/app-core-styles/fonts/DINWeb-CondMedium.ttf') format('truetype');
+  src:  url('assets/fonts/DINWeb-CondMedium.eot');
+  src:  url('assets/fonts/DINWeb-CondMedium.eot?#iefix') format('embedded-opentype'),
+  url('assets/fonts/DINWeb-CondMedium.woff2') format('woff2'),
+  url('assets/fonts/DINWeb-CondMedium.woff') format('woff'),
+  url('assets/fonts/DINWeb-CondMedium.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'DINWeb-CondBold';
-  src:  url('../../components/assets/fonts/app-core-styles/fonts/DINWeb-CondBold.eot');
-  src:  url('../../components/app-core-styles/fonts/DINWeb-CondBold.eot?#iefix') format('embedded-opentype'),
-  url('../../components/app-core-styles/fonts/DINWeb-CondBold.woff2') format('woff2'),
-  url('../../components/app-core-styles/fonts/DINWeb-CondBold.woff') format('woff'),
-  url('../../components/app-core-styles/fonts/DINWeb-CondBold.ttf') format('truetype');
+  src:  url('assets/fonts/DINWeb-CondBold.eot');
+  src:  url('assets/fonts/DINWeb-CondBold.eot?#iefix') format('embedded-opentype'),
+  url('assets/fonts/DINWeb-CondBold.woff2') format('woff2'),
+  url('assets/fonts/DINWeb-CondBold.woff') format('woff'),
+  url('assets/fonts/DINWeb-CondBold.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -48,11 +45,11 @@
 
 @font-face {
   font-family: 'FatFrank-Free';
-  src:  url('../../components/assets/fonts/app-core-styles/fonts/FatFrank-Free.eot');
-  src:  url('../../components/app-core-styles/fonts/FatFrank-Free.eot?#iefix') format('embedded-opentype'),
-  url('../../components/app-core-styles/fonts/FatFrank-Free.woff2') format('woff2'),
-  url('../../components/app-core-styles/fonts/FatFrank-Free.woff') format('woff'),
-  url('../../components/app-core-styles/fonts/FatFrank-Free.ttf') format('truetype');
+  src:  url('assets/fonts/FatFrank-Free.eot');
+  src:  url('assets/fonts/FatFrank-Free.eot?#iefix') format('embedded-opentype'),
+  url('assets/fonts/FatFrank-Free.woff2') format('woff2'),
+  url('assets/fonts/FatFrank-Free.woff') format('woff'),
+  url('assets/fonts/FatFrank-Free.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
