@@ -1,0 +1,80 @@
+@import "variables";
+
+
+@font-face {
+  font-family: 'AGaramondPro-Regular';
+  src:  url('../../components/assets/fonts/app-core-styles/fonts/AGaramondPro-Regular.eot');
+  src:  url('../../components/app-core-styles/fonts/AGaramondPro-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../../components/app-core-styles/fonts/AGaramondPro-Regular.woff2') format('woff2'),
+  url('../../components/app-core-styles/fonts/AGaramondPro-Regular.woff') format('woff'),
+  url('../../components/app-core-styles/fonts/AGaramondPro-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AGaramondPro-Bold';
+  src:  url('../../components/assets/fonts/app-core-styles/fonts/AGaramondPro-Bold.eot');
+  src:  url('../../components/app-core-styles/fonts/AGaramondPro-Bold.eot?#iefix') format('embedded-opentype'),
+  url('../../components/app-core-styles/fonts/AGaramondPro-Bold.woff2') format('woff2'),
+  url('../../components/app-core-styles/fonts/AGaramondPro-Bold.woff') format('woff'),
+  url('../../components/app-core-styles/fonts/AGaramondPro-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DINWeb-CondMedium';
+  src:  url('../../components/assets/fonts/app-core-styles/fonts/DINWeb-CondMedium.eot');
+  src:  url('../../components/app-core-styles/fonts/DINWeb-CondMedium.eot?#iefix') format('embedded-opentype'),
+  url('../../components/app-core-styles/fonts/DINWeb-CondMedium.woff2') format('woff2'),
+  url('../../components/app-core-styles/fonts/DINWeb-CondMedium.woff') format('woff'),
+  url('../../components/app-core-styles/fonts/DINWeb-CondMedium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DINWeb-CondBold';
+  src:  url('../../components/assets/fonts/app-core-styles/fonts/DINWeb-CondBold.eot');
+  src:  url('../../components/app-core-styles/fonts/DINWeb-CondBold.eot?#iefix') format('embedded-opentype'),
+  url('../../components/app-core-styles/fonts/DINWeb-CondBold.woff2') format('woff2'),
+  url('../../components/app-core-styles/fonts/DINWeb-CondBold.woff') format('woff'),
+  url('../../components/app-core-styles/fonts/DINWeb-CondBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'FatFrank-Free';
+  src:  url('../../components/assets/fonts/app-core-styles/fonts/FatFrank-Free.eot');
+  src:  url('../../components/app-core-styles/fonts/FatFrank-Free.eot?#iefix') format('embedded-opentype'),
+  url('../../components/app-core-styles/fonts/FatFrank-Free.woff2') format('woff2'),
+  url('../../components/app-core-styles/fonts/FatFrank-Free.woff') format('woff'),
+  url('../../components/app-core-styles/fonts/FatFrank-Free.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.cla1 {
+  font-family: AGaramondPro-Bold;
+  color: red;
+}
+
+.cla2 {
+  font-family: AGaramondPro-Regular;
+  color: red;
+}
+.cla3 {
+  font-family: DINWeb-CondMedium;
+  color: darkgrey;
+}
+.cla4 {
+  font-family: DINWeb-CondBold;
+  color: grey;
+}
+.cla5 {
+  font-family: FatFrank-Free;
+  color: red;
+}

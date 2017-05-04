@@ -1,0 +1,14 @@
+@mixin transition($transition-property, $transition-time, $method) {
+	-webkit-transition: $transition-property $transition-time $method;
+	transition: $transition-property $transition-time $method;
+}
+
+@mixin transition-timing-function($timing-function) {
+	-webkit-transition-timing-function: $timing-function;
+	transition-timing-function: $timing-function;
+}
+
+@mixin transition-property($transition-property) {
+	-webkit-transition-property: $transition-property;
+	transition-property: $transition-property;
+}
