@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a03b6dc7-f147-4fdd-984d-b543d8db6137" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reservar-cita-masaje-tailandes.html" afterPath="$PROJECT_DIR$/reservar-cita-masaje-tailandes.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog-masaje-tailandes.html" afterPath="$PROJECT_DIR$/blog-masaje-tailandes.html" />
     </list>
     <ignored path="masaje-template.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,8 +26,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="136" column="27" selection-start-line="136" selection-start-column="27" selection-end-line="136" selection-end-column="27" />
+            <state relative-caret-position="1025">
+              <caret line="249" column="26" selection-start-line="194" selection-start-column="16" selection-end-line="249" selection-end-column="26" />
               <folding>
                 <marker date="1493980207000" expanded="true" signature="347:577" ph="..." />
               </folding>
@@ -40,8 +38,8 @@
       <file leaf-file-name="sobre-daniel-ramirez-escudero.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sobre-daniel-ramirez-escudero.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="79" column="16" selection-start-line="79" selection-start-column="16" selection-end-line="86" selection-end-column="24" />
+            <state relative-caret-position="536">
+              <caret line="162" column="33" selection-start-line="119" selection-start-column="27" selection-end-line="162" selection-end-column="33" />
               <folding>
                 <marker date="1493979701000" expanded="true" signature="347:577" ph="..." />
               </folding>
@@ -49,13 +47,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reservar-cita-masaje-tailandes.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="reservar-cita-masaje-tailandes.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/reservar-cita-masaje-tailandes.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="514">
-              <caret line="250" column="43" selection-start-line="17" selection-start-column="8" selection-end-line="250" selection-end-column="43" />
+            <state relative-caret-position="1054">
+              <caret line="233" column="43" selection-start-line="0" selection-start-column="0" selection-end-line="253" selection-end-column="0" />
               <folding>
                 <marker date="1493980744000" expanded="true" signature="347:577" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="blog-masaje-tailandes.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/blog-masaje-tailandes.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1682">
+              <caret line="140" column="21" selection-start-line="140" selection-start-column="21" selection-end-line="140" selection-end-column="21" />
+              <folding>
+                <marker date="1493981499000" expanded="true" signature="347:577" ph="..." />
               </folding>
             </state>
           </provider>
@@ -117,6 +127,7 @@
         <option value="$PROJECT_DIR$/sobre-daniel-ramirez-escudero.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/reservar-cita-masaje-tailandes.html" />
+        <option value="$PROJECT_DIR$/blog-masaje-tailandes.html" />
       </list>
     </option>
   </component>
@@ -293,12 +304,12 @@
       <workItem from="1493916665836" duration="1743000" />
       <workItem from="1493918507348" duration="1587000" />
       <workItem from="1493977347336" duration="2368000" />
-      <workItem from="1493979876014" duration="867000" />
+      <workItem from="1493979876014" duration="1634000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15029000" />
+    <option name="totallyTimeSpent" value="15796000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -309,7 +320,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14182693" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14216867" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -644,32 +655,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/robots.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="136" column="27" selection-start-line="136" selection-start-column="27" selection-end-line="136" selection-end-column="27" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reservar-cita-masaje-tailandes.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1054">
+          <caret line="233" column="43" selection-start-line="0" selection-start-column="0" selection-end-line="253" selection-end-column="0" />
           <folding>
-            <marker date="1493980207000" expanded="true" signature="347:577" ph="..." />
+            <marker date="1493980744000" expanded="true" signature="347:577" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sobre-daniel-ramirez-escudero.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="79" column="16" selection-start-line="79" selection-start-column="16" selection-end-line="86" selection-end-column="24" />
+        <state relative-caret-position="536">
+          <caret line="162" column="33" selection-start-line="119" selection-start-column="27" selection-end-line="162" selection-end-column="33" />
           <folding>
             <marker date="1493979701000" expanded="true" signature="347:577" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/reservar-cita-masaje-tailandes.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="250" column="43" selection-start-line="17" selection-start-column="8" selection-end-line="250" selection-end-column="43" />
+        <state relative-caret-position="1025">
+          <caret line="249" column="26" selection-start-line="194" selection-start-column="16" selection-end-line="249" selection-end-column="26" />
           <folding>
-            <marker date="1493980744000" expanded="true" signature="347:577" ph="..." />
+            <marker date="1493980207000" expanded="true" signature="347:577" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-masaje-tailandes.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1682">
+          <caret line="140" column="21" selection-start-line="140" selection-start-column="21" selection-end-line="140" selection-end-column="21" />
+          <folding>
+            <marker date="1493981499000" expanded="true" signature="347:577" ph="..." />
           </folding>
         </state>
       </provider>
