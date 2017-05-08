@@ -1,5 +1,0 @@
-@mixin box-shadow($value) {
-	-webkit-box-shadow: unquote($value); // iOS <= 4.3, Android <= 3.0
-//	   -moz-box-shadow: unquote($value); // FF <= 3.5? no longer needed
-	        box-shadow: unquote($value);
-}

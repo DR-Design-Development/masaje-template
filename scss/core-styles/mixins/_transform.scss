@@ -1,96 +1,80 @@
 @mixin transform($transform) {
 	-webkit-transform: $transform;
-	-ms-transform: $transform;
 	transform: $transform;
 }
 
 @mixin transform-scale($scale) {
 	-webkit-transform: scale($scale);
-	-ms-transform: scale($scale);
 	transform: scale($scale);
 }
 
 @mixin transform-scaleX($scale) {
 	-webkit-transform: scaleX($scale);
-	-ms-transform: scaleX($scale);
 	transform: scaleX($scale);
 }
 
 @mixin transform-scaleY($scale) {
 	-webkit-transform: scaleY($scale);
-	-ms-transform: scaleY($scale);
 	transform: scaleY($scale);
 }
 
 @mixin transform-rotate($rotate) {
 	-webkit-transform: rotate($rotate);
-		-ms-transform: rotate($rotate);
 			transform: rotate($rotate);
 }
 
 @mixin transform-rotateX($rotate) {
 	-webkit-transform: rotateX($rotate);
-	-ms-transform: rotateX($rotate);
 	transform: rotateX($rotate);
 }
 
 @mixin transform-translate($translate1,$translate2) {
 	-webkit-transform: translate($translate1,$translate2);
-	-ms-transform: translate($translate1,$translate2);
 	transform: translate($translate1,$translate2);
 }
 
 @mixin transform-translateX($translate) {
 	-webkit-transform: translateX($translate);
-	-ms-transform: translateX($translate);
 	transform: translateX($translate);
 }
 
 @mixin transform-translateY($translate) {
 	-webkit-transform: translateY($translate);
-	-ms-transform: translateY($translate);
 	transform: translateY($translate);
 }
 
 @mixin transform-translateZ($translate) {
 	-webkit-transform: translateZ($translate);
-	-ms-transform: translateZ($translate);
 	transform: translateZ($translate);
 }
 
 @mixin transform-skew($skew) {
 	-webkit-transform: skew($skew);
-	-ms-transform: skew($skew);
 	transform: skew($skew);
 }
 
 @mixin transform-skewY($skewY) {
 	-webkit-transform: skewY($skewY);
-	-ms-transform: skewY($skewY);
 	transform: skewY($skewY);
 }
 
 @mixin transform-translate3d($x-axis, $y-axis, $z-axis) {
 	-webkit-transform: translate3d($x-axis, $y-axis, $z-axis);
-	-ms-transform: translate3d($x-axis, $y-axis, $z-axis);
 	transform: translate3d($x-axis, $y-axis, $z-axis);
 }
 
 @mixin transform-style($style) {
 	-webkit-transform-style: $style;
-	-ms-transform-style: $style;
 	transform-style: $style;
 }
 
 @mixin transform-origin($origin) {
 	-webkit-transform-origin: $origin;
-	-ms-transform-origin: $origin;
 	transform-origin: $origin;
 }
 
 @mixin perspective($perspective) {
 	-webkit-perspective: $perspective;
-	-ms-perspective: $perspective;
 	perspective: $perspective;
 }
 
