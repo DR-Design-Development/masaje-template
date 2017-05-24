@@ -1,3 +1,5 @@
+@import "variables";
+
 @font-face {
   font-family: 'AGaramondPro-Regular';
   src:  url('assets/fonts/AGaramondPro-Regular.eot');
@@ -54,24 +56,61 @@
   font-style: normal;
 }
 
-.cla1 {
-  font-family: AGaramondPro-Bold;
-  color: red;
+html {
+  font-size: 62.5%;
 }
 
-.cla2 {
+body {
   font-family: AGaramondPro-Regular;
-  color: red;
+  font-size: 1.8rem;
+  line-height: 3rem;
+  color: $black-light;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
-.cla3 {
-  font-family: DINWeb-CondMedium;
-  color: darkgrey;
+
+h1 {
+  margin-top: 0;
 }
-.cla4 {
+
+// Chapter styles
+.chapter-main-title {
+  color: $black-dark;
+  font-family: AGaramondPro-Bold;
+  font-size: 7rem;
+  margin: 0 0 5rem 0;
+}
+
+.chapter-sub-title {
+  color: $black-dark;
   font-family: DINWeb-CondBold;
-  color: grey;
+  font-size: 1.4rem;
+  margin: 0 0 1.5rem 0;
 }
-.cla5 {
-  font-family: FatFrank-Free;
-  color: red;
+
+.chapter-text {
+  font-family: AGaramondPro-Regular;
+  font-size: 2.4rem;
+  line-height: 4rem;
+  color: $black-medium-dark;
+}
+
+.chapter-main-title-hori {
+  display: inline-block;
+  margin-right: -4px;
+  width: 50%;
+}
+
+.chapter-content-divider {
+  margin: 4rem 0 8rem 0;
+}
+
+.chapter-text-hori {
+  display: inline-block;
+  margin-right: -4px;
+  width: 50%;
+}
+
+.content-divider-chapter {
+  margin: 4rem 0 8rem 0;
 }

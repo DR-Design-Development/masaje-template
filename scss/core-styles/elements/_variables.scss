@@ -1,16 +1,11 @@
-// Variables Voorhoede Front-end style guide
-@brand-default:		black;
-@brand-highlight:	#428bca;
-@brand-success:		#5cb85c;
-@brand-info:		#5bc0de;
-@brand-warning:		#f0ad4e;
-@brand-danger:		#d9534f;
-
-@black-dark:		    #292929;
-@black-medium:          #545454;
-@black-light:	        #B0B0B0;
-@white:	                #FFFFFF;
-@black-dark-trans-50:	rgba(41,41,41,0.5);
-@black-dark-trans-15:	rgba(41,41,41,0.5);
-@white-trans-50:	    rgba(255,255,255,0.5);
-@white-trans-10:	    rgba(255,255,255,0.1);
+$black-dark:		          #292929;
+$black-medium-dark:           #545454;
+$black-medium:                #707070;
+$black-medium-dark-light:     #979797;
+$black-light:	              #B0B0B0;
+$white-dark:                  #E5E5E5;
+$white:	                      #FFFFFF;
+$black-dark-trans-50:	      rgba(41,41,41,0.5);
+$black-dark-trans-15:	      rgba(41,41,41,0.5);
+$white-trans-50:	          rgba(255,255,255,0.5);
+$white-trans-10:	          rgba(255,255,255,0.1);

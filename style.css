@@ -1,176 +1,235 @@
-.a11y-sr-only,
-.a11y-kb-only {
-  border: 0;
-  clip: rect(0 0 0 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  width: 1px; }
+@charset "UTF-8";
+/*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
+/* Document ========================================================================== */
+/** 1. Correct the line height in all browsers. 2. Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS. */
+html { line-height: 1.15; /* 1 */ -ms-text-size-adjust: 100%; /* 2 */ -webkit-text-size-adjust: 100%; /* 2 */ }
 
-.a11y-kb-only:active,
-.a11y-kb-only:focus {
-  clip: auto;
-  height: auto;
-  margin: 0;
-  overflow: visible;
-  position: static;
-  width: auto; }
+/* Sections ========================================================================== */
+/** Remove the margin in all browsers (opinionated). */
+body { margin: 0; }
 
-.menu-link {
-  display: inline-block;
-  padding: .5em;
-  text-decoration: none; }
+/** Add the correct display in IE 9-. */
+article, aside, footer, header, nav, section { display: block; }
 
-.icon-search:before {
-  content: "search"; }
+/** Correct the font size and margin on `h1` elements within `section` and `article` contexts in Chrome, Firefox, and Safari. */
+h1 { font-size: 2em; margin: 0.67em 0; }
 
-.icon-close:before {
-  content: "x"; }
+/* Grouping content ========================================================================== */
+/** Add the correct display in IE 9-. 1. Add the correct display in IE. */
+figcaption, figure, main { /* 1 */ display: block; }
 
-.flat-list {
-  list-style: none;
-  padding-left: 0;
-  margin: 0; }
-  .flat-list li {
-    padding-left: 0; }
-  .flat-list li:before {
-    content: ''; }
+/** Add the correct margin in IE 8. */
+figure { margin: 1em 40px; }
 
-@font-face {
-  font-family: 'AGaramondPro-Regular';
-  src: url("assets/fonts/AGaramondPro-Regular.eot");
-  src: url("assets/fonts/AGaramondPro-Regular.eot?#iefix") format("embedded-opentype"), url("assets/fonts/AGaramondPro-Regular.woff2") format("woff2"), url("assets/fonts/AGaramondPro-Regular.woff") format("woff"), url("assets/fonts/AGaramondPro-Regular.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal; }
-@font-face {
-  font-family: 'AGaramondPro-Bold';
-  src: url("assets/fonts/AGaramondPro-Bold.eot");
-  src: url("assets/fonts/AGaramondPro-Bold.eot?#iefix") format("embedded-opentype"), url("assets/fonts/AGaramondPro-Bold.woff2") format("woff2"), url("assets/fonts/AGaramondPro-Bold.woff") format("woff"), url("assets/fonts/AGaramondPro-Bold.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal; }
-@font-face {
-  font-family: 'DINWeb-CondMedium';
-  src: url("assets/fonts/DINWeb-CondMedium.eot");
-  src: url("assets/fonts/DINWeb-CondMedium.eot?#iefix") format("embedded-opentype"), url("assets/fonts/DINWeb-CondMedium.woff2") format("woff2"), url("assets/fonts/DINWeb-CondMedium.woff") format("woff"), url("assets/fonts/DINWeb-CondMedium.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal; }
-@font-face {
-  font-family: 'DINWeb-CondBold';
-  src: url("assets/fonts/DINWeb-CondBold.eot");
-  src: url("assets/fonts/DINWeb-CondBold.eot?#iefix") format("embedded-opentype"), url("assets/fonts/DINWeb-CondBold.woff2") format("woff2"), url("assets/fonts/DINWeb-CondBold.woff") format("woff"), url("assets/fonts/DINWeb-CondBold.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal; }
-@font-face {
-  font-family: 'FatFrank-Free';
-  src: url("assets/fonts/FatFrank-Free.eot");
-  src: url("assets/fonts/FatFrank-Free.eot?#iefix") format("embedded-opentype"), url("assets/fonts/FatFrank-Free.woff2") format("woff2"), url("assets/fonts/FatFrank-Free.woff") format("woff"), url("assets/fonts/FatFrank-Free.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal; }
-.cla1 {
-  font-family: AGaramondPro-Bold;
-  color: red; }
+/** 1. Add the correct box sizing in Firefox. 2. Show the overflow in Edge and IE. */
+hr { box-sizing: content-box; /* 1 */ height: 0; /* 1 */ overflow: visible; /* 2 */ }
 
-.cla2 {
-  font-family: AGaramondPro-Regular;
-  color: red; }
+/** 1. Correct the inheritance and scaling of font size in all browsers. 2. Correct the odd `em` font sizing in all browsers. */
+pre { font-family: monospace, monospace; /* 1 */ font-size: 1em; /* 2 */ }
 
-.cla3 {
-  font-family: DINWeb-CondMedium;
-  color: darkgrey; }
+/* Text-level semantics ========================================================================== */
+/** 1. Remove the gray background on active links in IE 10. 2. Remove gaps in links underline in iOS 8+ and Safari 8+. */
+a { background-color: transparent; /* 1 */ -webkit-text-decoration-skip: objects; /* 2 */ }
 
-.cla4 {
-  font-family: DINWeb-CondBold;
-  color: grey; }
+/** 1. Remove the bottom border in Chrome 57- and Firefox 39-. 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari. */
+abbr[title] { border-bottom: none; /* 1 */ text-decoration: underline; /* 2 */ text-decoration: underline dotted; /* 2 */ }
 
-.cla5 {
-  font-family: FatFrank-Free;
-  color: red; }
+/** Prevent the duplicate application of `bolder` by the next rule in Safari 6. */
+b, strong { font-weight: inherit; }
 
-.a11y-sr-only,
-.a11y-kb-only {
-  border: 0;
-  clip: rect(0 0 0 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  width: 1px; }
+/** Add the correct font weight in Chrome, Edge, and Safari. */
+b, strong { font-weight: bolder; }
 
-.a11y-kb-only:active,
-.a11y-kb-only:focus {
-  clip: auto;
-  height: auto;
-  margin: 0;
-  overflow: visible;
-  position: static;
-  width: auto; }
+/** 1. Correct the inheritance and scaling of font size in all browsers. 2. Correct the odd `em` font sizing in all browsers. */
+code, kbd, samp { font-family: monospace, monospace; /* 1 */ font-size: 1em; /* 2 */ }
 
-.icon-search:before {
-  content: "search"; }
+/** Add the correct font style in Android 4.3-. */
+dfn { font-style: italic; }
 
-.icon-close:before {
-  content: "x"; }
+/** Add the correct background and color in IE 9-. */
+mark { background-color: #ff0; color: #000; }
 
-.flat-list {
-  list-style: none;
-  padding-left: 0;
-  margin: 0; }
-  .flat-list li {
-    padding-left: 0; }
-  .flat-list li:before {
-    content: ''; }
+/** Add the correct font size in all browsers. */
+small { font-size: 80%; }
 
-@font-face {
-  font-family: 'AGaramondPro-Regular';
-  src: url("assets/fonts/AGaramondPro-Regular.eot");
-  src: url("assets/fonts/AGaramondPro-Regular.eot?#iefix") format("embedded-opentype"), url("assets/fonts/AGaramondPro-Regular.woff2") format("woff2"), url("assets/fonts/AGaramondPro-Regular.woff") format("woff"), url("assets/fonts/AGaramondPro-Regular.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal; }
-@font-face {
-  font-family: 'AGaramondPro-Bold';
-  src: url("assets/fonts/AGaramondPro-Bold.eot");
-  src: url("assets/fonts/AGaramondPro-Bold.eot?#iefix") format("embedded-opentype"), url("assets/fonts/AGaramondPro-Bold.woff2") format("woff2"), url("assets/fonts/AGaramondPro-Bold.woff") format("woff"), url("assets/fonts/AGaramondPro-Bold.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal; }
-@font-face {
-  font-family: 'DINWeb-CondMedium';
-  src: url("assets/fonts/DINWeb-CondMedium.eot");
-  src: url("assets/fonts/DINWeb-CondMedium.eot?#iefix") format("embedded-opentype"), url("assets/fonts/DINWeb-CondMedium.woff2") format("woff2"), url("assets/fonts/DINWeb-CondMedium.woff") format("woff"), url("assets/fonts/DINWeb-CondMedium.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal; }
-@font-face {
-  font-family: 'DINWeb-CondBold';
-  src: url("assets/fonts/DINWeb-CondBold.eot");
-  src: url("assets/fonts/DINWeb-CondBold.eot?#iefix") format("embedded-opentype"), url("assets/fonts/DINWeb-CondBold.woff2") format("woff2"), url("assets/fonts/DINWeb-CondBold.woff") format("woff"), url("assets/fonts/DINWeb-CondBold.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal; }
-@font-face {
-  font-family: 'FatFrank-Free';
-  src: url("assets/fonts/FatFrank-Free.eot");
-  src: url("assets/fonts/FatFrank-Free.eot?#iefix") format("embedded-opentype"), url("assets/fonts/FatFrank-Free.woff2") format("woff2"), url("assets/fonts/FatFrank-Free.woff") format("woff"), url("assets/fonts/FatFrank-Free.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal; }
-.cla1 {
-  font-family: AGaramondPro-Bold;
-  color: red; }
+/** Prevent `sub` and `sup` elements from affecting the line height in all browsers. */
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
 
-.cla2 {
-  font-family: AGaramondPro-Regular;
-  color: red; }
+sub { bottom: -0.25em; }
 
-.cla3 {
-  font-family: DINWeb-CondMedium;
-  color: darkgrey; }
+sup { top: -0.5em; }
 
-.cla4 {
-  font-family: DINWeb-CondBold;
-  color: grey; }
+/* Embedded content ========================================================================== */
+/** Add the correct display in IE 9-. */
+audio, video { display: inline-block; }
 
-.cla5 {
-  font-family: FatFrank-Free;
-  color: red; }
+/** Add the correct display in iOS 4-7. */
+audio:not([controls]) { display: none; height: 0; }
+
+/** Remove the border on images inside links in IE 10-. */
+img { border-style: none; }
+
+/** Hide the overflow in IE. */
+svg:not(:root) { overflow: hidden; }
+
+/* Forms ========================================================================== */
+/** 1. Change the font styles in all browsers (opinionated). 2. Remove the margin in Firefox and Safari. */
+button, input, optgroup, select, textarea { font-family: sans-serif; /* 1 */ font-size: 100%; /* 1 */ line-height: 1.15; /* 1 */ margin: 0; /* 2 */ }
+
+/** Show the overflow in IE. 1. Show the overflow in Edge. */
+button, input { /* 1 */ overflow: visible; }
+
+/** Remove the inheritance of text transform in Edge, Firefox, and IE. 1. Remove the inheritance of text transform in Firefox. */
+button, select { /* 1 */ text-transform: none; }
+
+/** 1. Prevent a WebKit bug where (2) destroys native `audio` and `video` controls in Android 4. 2. Correct the inability to style clickable types in iOS and Safari. */
+button, html [type="button"], [type="reset"], [type="submit"] { -webkit-appearance: button; /* 2 */ }
+
+/** Remove the inner border and padding in Firefox. */
+button::-moz-focus-inner, [type="button"]::-moz-focus-inner, [type="reset"]::-moz-focus-inner, [type="submit"]::-moz-focus-inner { border-style: none; padding: 0; }
+
+/** Restore the focus styles unset by the previous rule. */
+button:-moz-focusring, [type="button"]:-moz-focusring, [type="reset"]:-moz-focusring, [type="submit"]:-moz-focusring { outline: 1px dotted ButtonText; }
+
+/** Correct the padding in Firefox. */
+fieldset { padding: 0.35em 0.75em 0.625em; }
+
+/** 1. Correct the text wrapping in Edge and IE. 2. Correct the color inheritance from `fieldset` elements in IE. 3. Remove the padding so developers are not caught out when they zero out `fieldset` elements in all browsers. */
+legend { box-sizing: border-box; /* 1 */ color: inherit; /* 2 */ display: table; /* 1 */ max-width: 100%; /* 1 */ padding: 0; /* 3 */ white-space: normal; /* 1 */ }
+
+/** 1. Add the correct display in IE 9-. 2. Add the correct vertical alignment in Chrome, Firefox, and Opera. */
+progress { display: inline-block; /* 1 */ vertical-align: baseline; /* 2 */ }
+
+/** Remove the default vertical scrollbar in IE. */
+textarea { overflow: auto; }
+
+/** 1. Add the correct box sizing in IE 10-. 2. Remove the padding in IE 10-. */
+[type="checkbox"], [type="radio"] { box-sizing: border-box; /* 1 */ padding: 0; /* 2 */ }
+
+/** Correct the cursor style of increment and decrement buttons in Chrome. */
+[type="number"]::-webkit-inner-spin-button, [type="number"]::-webkit-outer-spin-button { height: auto; }
+
+/** 1. Correct the odd appearance in Chrome and Safari. 2. Correct the outline style in Safari. */
+[type="search"] { -webkit-appearance: textfield; /* 1 */ outline-offset: -2px; /* 2 */ }
+
+/** Remove the inner padding and cancel buttons in Chrome and Safari on macOS. */
+[type="search"]::-webkit-search-cancel-button, [type="search"]::-webkit-search-decoration { -webkit-appearance: none; }
+
+/** 1. Correct the inability to style clickable types in iOS and Safari. 2. Change font properties to `inherit` in Safari. */
+::-webkit-file-upload-button { -webkit-appearance: button; /* 1 */ font: inherit; /* 2 */ }
+
+/* Interactive ========================================================================== */
+/* Add the correct display in IE 9-. 1. Add the correct display in Edge, IE, and Firefox. */
+details, menu { display: block; }
+
+/* Add the correct display in all browsers. */
+summary { display: list-item; }
+
+/* Scripting ========================================================================== */
+/** Add the correct display in IE 9-. */
+canvas { display: inline-block; }
+
+/** Add the correct display in IE. */
+template { display: none; }
+
+/* Hidden ========================================================================== */
+/** Add the correct display in IE 10-. */
+[hidden] { display: none; }
+
+.a11y-sr-only, .a11y-kb-only { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
+
+.a11y-kb-only:active, .a11y-kb-only:focus { clip: auto; height: auto; margin: 0; overflow: visible; position: static; width: auto; }
+
+a { text-decoration: none; transition: color 0.2s ease; }
+
+.link-inline { color: #292929; font-family: inherit; font-size: inherit; line-height: inherit; text-decoration: underline; text-decoration-color: #979797; }
+.link-inline:hover { color: #B0B0B0; text-decoration-color: #B0B0B0; }
+.link-inline:visited { color: #545454; text-decoration-color: #B0B0B0; }
+
+button { background: transparent; border: 1px solid #707070; color: #292929; font-family: DINWeb-CondBold; text-transform: uppercase; }
+
+.btn-main { font-size: 2.1rem; max-width: 26rem; padding: 1.8rem 2rem; }
+
+.btn-item { font-size: 1.4rem; padding: 10px 60px; }
+
+.btn-item-inverse { border: 1px solid #E5E5E5; color: #FFFFFF; }
+
+.contact-link { color: #B0B0B0; font-size: 1.8rem; }
+.contact-link:before { margin-right: 2.5rem; }
+.contact-link:before, .contact-link:after { color: #545454; }
+
+.contact-link-info:after { content: "(Información general)"; }
+
+.contact-link-reservations:after { content: "(Reservas, modificaciónes o cancelaciones)"; }
+
+.icon-search:before { content: "search"; }
+
+.icon-close:before { content: "x"; }
+
+.flat-list { list-style: none; padding-left: 0; margin: 0; }
+.flat-list li { padding-left: 0; }
+.flat-list li:before { content: ''; }
+
+@font-face { font-family: 'AGaramondPro-Regular'; src: url("assets/fonts/AGaramondPro-Regular.eot"); src: url("assets/fonts/AGaramondPro-Regular.eot?#iefix") format("embedded-opentype"), url("assets/fonts/AGaramondPro-Regular.woff2") format("woff2"), url("assets/fonts/AGaramondPro-Regular.woff") format("woff"), url("assets/fonts/AGaramondPro-Regular.ttf") format("truetype"); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'AGaramondPro-Bold'; src: url("assets/fonts/AGaramondPro-Bold.eot"); src: url("assets/fonts/AGaramondPro-Bold.eot?#iefix") format("embedded-opentype"), url("assets/fonts/AGaramondPro-Bold.woff2") format("woff2"), url("assets/fonts/AGaramondPro-Bold.woff") format("woff"), url("assets/fonts/AGaramondPro-Bold.ttf") format("truetype"); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'DINWeb-CondMedium'; src: url("assets/fonts/DINWeb-CondMedium.eot"); src: url("assets/fonts/DINWeb-CondMedium.eot?#iefix") format("embedded-opentype"), url("assets/fonts/DINWeb-CondMedium.woff2") format("woff2"), url("assets/fonts/DINWeb-CondMedium.woff") format("woff"), url("assets/fonts/DINWeb-CondMedium.ttf") format("truetype"); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'DINWeb-CondBold'; src: url("assets/fonts/DINWeb-CondBold.eot"); src: url("assets/fonts/DINWeb-CondBold.eot?#iefix") format("embedded-opentype"), url("assets/fonts/DINWeb-CondBold.woff2") format("woff2"), url("assets/fonts/DINWeb-CondBold.woff") format("woff"), url("assets/fonts/DINWeb-CondBold.ttf") format("truetype"); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'FatFrank-Free'; src: url("assets/fonts/FatFrank-Free.eot"); src: url("assets/fonts/FatFrank-Free.eot?#iefix") format("embedded-opentype"), url("assets/fonts/FatFrank-Free.woff2") format("woff2"), url("assets/fonts/FatFrank-Free.woff") format("woff"), url("assets/fonts/FatFrank-Free.ttf") format("truetype"); font-weight: normal; font-style: normal; }
+html { font-size: 62.5%; }
+
+body { font-family: AGaramondPro-Regular; font-size: 1.8rem; line-height: 3rem; color: #B0B0B0; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+h1 { margin-top: 0; }
+
+.chapter-main-title { color: #292929; font-family: AGaramondPro-Bold; font-size: 7rem; margin: 0 0 5rem 0; }
+
+.chapter-sub-title { color: #292929; font-family: DINWeb-CondBold; font-size: 1.4rem; margin: 0 0 1.5rem 0; }
+
+.chapter-text { font-family: AGaramondPro-Regular; font-size: 2.4rem; line-height: 4rem; color: #545454; }
+
+.chapter-main-title-hori { display: inline-block; margin-right: -4px; width: 50%; }
+
+.chapter-content-divider { margin: 4rem 0 8rem 0; }
+
+.chapter-text-hori { display: inline-block; margin-right: -4px; width: 50%; }
+
+.content-divider-chapter { margin: 4rem 0 8rem 0; }
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body { background: #FFFFFF; position: relative; }
+
+.content-container, footer { max-width: 124rem; margin: 0 auto; width: 100%; }
+
+.header-homepage { height: 15rem; position: absolute; padding: 5rem 0; left: 50%; -webkit-transform: translateX(-50%); transform: translateX(-50%); width: 100%; }
+
+.logo-block { float: left; line-height: 2.2rem; }
+
+.logo-text { color: #FFFFFF; font-family: FatFrank; font-size: 2.8rem; text-transform: uppercase; text-decoration: none; }
+
+.logo-location { color: inherit; display: block; font-family: DINWeb-CondBold; font-size: 1.4rem; text-transform: uppercase; text-decoration: none; }
+
+.menu { float: right; }
+.menu a { color: #FFFFFF; font-family: DINWeb-CondMedium; font-size: 1.6rem; padding: 0 1.75rem; text-decoration: none; }
+.menu a:hover { color: rgba(255, 255, 255, 0.5); }
+
+.home-image { margin: 0; width: 100%; }
+
+footer { border-top: 1px solid #979797; padding: 6rem 0; }
+footer .footer-content-block:first-child { margin-bottom: 3; }
+footer .footer-content-block:last-child { margin-bottom: 0; }
+
+.footer-content-block { text-align: center; margin-bottom: 2.5rem; }
+.footer-content-block .footer-contact-link { color: #545454; font-family: AGaramondPro-Regular; fonr-size: 1.8rem; margin-right: 2rem; text-decoration: none; }
+.footer-content-block .footer-contact-link:hover, .footer-content-block .footer-contact-link.activehover { color: #979797; }
+.footer-content-block .footer-contact-link:last-child { margin-right: 0; }
+.footer-content-block .footer-social-link { color: #545454; font-family: DINWeb-CondBold; font-size: 1.5rem; margin-right: 2rem; }
+.footer-content-block .footer-social-link:hover, .footer-content-block .footer-social-link.activehover { color: #979797; }
+.footer-content-block .footer-social-link:last-child { margin-right: 0; }
+
+.logo-footer { color: #707070; font-family: FatFrank; font-size: 1.8rem; }
+.logo-footer img { display: block; margin: 0 auto 1rem auto; }
+
+.logo-footer-location { color: inherit; display: block; margin: 0 auto; font-family: DINWeb-CondBold; font-size: 1rem; line-height: 0rem; }
 
 /*# sourceMappingURL=style.css.map */

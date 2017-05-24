@@ -1,6 +1,4 @@
-// include partials A-Z
-@import "core-styles/elements/accessibility";
-@import "core-styles/elements//icons";
-@import "core-styles/elements//lists";
-//@import "styles/scaffolding";
-@import "core-styles/elements//typography";
+// include components A-Z
+@import "header";
+@import "home-image";
+@import "footer";

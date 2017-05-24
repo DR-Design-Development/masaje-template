@@ -1,5 +1,70 @@
-.menu-link {
-	display: inline-block;
-	padding: .5em;
+@import "variables";
+
+a {
 	text-decoration: none;
+	transition: color 0.2s ease;
+}
+
+.link-inline {
+	color: $black-dark;
+	font-family: inherit;
+	font-size: inherit;
+	line-height: inherit;
+	text-decoration: underline;
+	text-decoration-color: $black-medium-dark-light;
+
+	&:hover {
+		color: $black-light;
+		text-decoration-color: $black-light;
+	}
+
+	&:visited {
+		color: $black-medium-dark;
+		text-decoration-color: $black-light;
+	}
+}
+
+button {
+	background: transparent;
+	border: 1px solid $black-medium;
+	color: $black-dark;
+	font-family: DINWeb-CondBold;
+	text-transform: uppercase;
+}
+
+.btn-main {
+	font-size: 2.1rem;
+	max-width: 26rem;
+	padding: 1.8rem 2rem;
+}
+
+.btn-item {
+	font-size: 1.4rem;
+	padding: 10px 60px;
+}
+
+.btn-item-inverse {
+	border: 1px solid $white-dark;
+	color: $white;
+}
+
+.contact-link {
+	color: $black-light;
+	font-size: 1.8rem;
+
+	&:before {
+		margin-right: 2.5rem;
+	}
+
+	&:before, &:after {
+		color: $black-medium-dark;
+	}
+}
+
+.contact-link-info:after {
+	content: "(Información general)";
+}
+
+.contact-link-reservations:after {
+	content: "(Reservas, modificaciónes o cancelaciones)";
 }

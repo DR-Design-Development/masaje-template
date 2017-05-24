@@ -4,8 +4,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <meta name="decription" content="">
-        <title>Front-end Guide front-end-guide</title>
-
+        <title>Masaje tailandés</title>
         <!--[if lt IE 9]>
         <script>
             (function (d, a) { var l = a.length; while(l--){ d.createElement(a[l]); } }(document,
@@ -15,24 +14,26 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <header class="header-homepage" data-header-homepage>
-            <h1 class="logo-text">
-                Masaje Tailand&eacute;s<span class="logo-location">Barcelona</span>
+        <header class="header-homepage content-container" data-header-homepage>
+            <h1 class="logo-block">
+                <a href="index.html" class="logo-text">
+                    Masaje Tailandes <span class="logo-location">Barcelona</span>
+                </a>
             </h1>
             <nav class="menu">
-                <a href="sobre-masaje-tailandes.html">
+                <a href="sobre-masaje-tailandes.html" data-menu-link>
                     SOBRE MASAJE TAILANDES
                 </a>
-                <a href="sobre-daniel-ramirez-escudero.html">
+                <a href="sobre-daniel-ramirez-escudero.html" data-menu-link>
                     SOBRE MI
                 </a>
-                <a href="reservar-cita-masaje-tailandes.html">
+                <a href="reservar-cita-masaje-tailandes.html" data-menu-link>
                     CITA
                 </a>
-                <a href="blog-masaje-tailandes.html">
+                <a href="blog-masaje-tailandes.html" data-menu-link>
                     BLOG
                 </a>
-                <a href="contacto.html">
+                <a href="contacto.html" data-menu-link>
                     CONTACTO
                 </a>
             </nav>
@@ -42,7 +43,7 @@
                 <img src="assets/images/home-masaje-tailandes.jpg" alt="">
                 <figcaption></figcaption>
                 <div class="brand-block">
-                    <img src="assets/icons/logo-big.png" alt="" class="brand-logo">
+                    <img src="assets/images/logo-landing.png" alt="" class="brand-logo">
                     <h2 class="brand-slogan">
                         FRASE MOLA DEL MASAJE TAILANDES
                     </h2>
@@ -272,16 +273,16 @@
                 <a href="tel:+34619737212" class="contact-link">
                     + 34 619 737 212
                 </a>
-                <a href="mailto:info@masaje-tailandes.com" class="contact-link">
+                <a href="mailto:info@masaje-tailandes.com" class="contact-link contact-link-info">
                     info@masaje-tailandes.com <span class="contact-link-extra">(Información general)</span>
                 </a>
-                <a href="mailto:citas@masaje-tailandes.com" class="contact-link">
+                <a href="mailto:citas@masaje-tailandes.com" class="contact-link contact-link-reservations">
                     citas@masaje-tailandes.com <span class="contact-link-extra">(Reservas, modificaciónes o cancelaciones)</span>
                 </a>
             </article>
         </main>
         <footer>
-            <div class="footer-contact-section">
+            <div class="footer-content-block">
                 <a href="tel:+34619737212" class="footer-contact-link">
                     + 34 619 737 212
                 </a>
@@ -289,7 +290,7 @@
                     info@masaje-tailandes.com
                 </a>
             </div>
-            <div class="footer-social-section">
+            <div class="footer-content-block">
                 <a href="#" class="footer-social-link">
                     INSTRAGRAM
                 </a>
@@ -300,11 +301,11 @@
                     TWITTER
                 </a>
             </div>
-            <div class="footer-brand-section">
-            <a href="index.html">
-                <img src="" alt="">
-                MASAJE TAILANDES <span class="logo-location">BARCELONA</span>
-            </a>
+            <div class="footer-content-block">
+                <a href="index.html" class="logo-footer">
+                    <img src="assets/images/logo-footer.png" alt="">
+                    MASAJE TAILANDES <span class="logo-footer-location">BARCELONA</span>
+                </a>
             </div>
         </footer>
         <script src="function.js"></script>

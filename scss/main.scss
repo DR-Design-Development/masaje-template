@@ -1,4 +1,5 @@
-// include partials A-Z
+// Core styles first to load fonts etc
 @import "core-styles/core-styles";
-@import "views/views-styles";
 @import "components/components-styles";
+@import "views/views-styles";
+

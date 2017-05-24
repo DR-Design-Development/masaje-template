@@ -1,0 +1,50 @@
+@import "../core-styles/elements/variables";
+@import "../core-styles/mixins/transform";
+
+.header-homepage {
+  height: 15rem;
+  position: absolute;
+  padding: 5rem 0;
+  left: 50%;
+  @include transform-translateX(-50%);
+  width: 100%;
+}
+
+.logo-block {
+  float: left;
+  line-height: 2.2rem;
+}
+
+.logo-text {
+  color: $white;
+  font-family: FatFrank;
+  font-size: 2.8rem;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.logo-location {
+  color: inherit;
+  display: block;
+  font-family: DINWeb-CondBold;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.menu {
+  float: right;
+
+  a {
+    color: $white;
+    font-family: DINWeb-CondMedium;
+    font-size: 1.6rem;
+    padding: 0 1.75rem;
+    text-decoration: none;
+
+    &:hover {
+      color: $white-trans-50;
+
+    }
+  }
+}
