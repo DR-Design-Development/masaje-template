@@ -1,4 +1,31 @@
-// include partials A-Z
-@import (once) "blog/blog.less";
-@import (once) "views/views-styles";
-@import (once) "components/components-styles";
+@import "../core-styles/elements/variables";
+@import "../core-styles/mixins/transform";
+
+.brand-block {
+  bottom: 12rem;
+  position: absolute;
+  left: 50%;
+  @include transform-translateX(-50%);
+
+  img {
+    display: block;
+    margin: 0 auto 2.5rem auto;
+  }
+}
+
+.brand-slogan {
+  color: $white;
+  font-family: DINWeb-CondBold;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.brand-title {
+  color: $white;
+  font-family: AGaramondPro-Bold;
+  font-size: 7rem;
+  line-height: 7rem;
+  text-align: center;
+}

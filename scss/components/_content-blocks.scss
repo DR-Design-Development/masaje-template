@@ -1,0 +1,23 @@
+@import "../core-styles/elements/variables";
+
+.home-text-block {
+  background: $white;
+  @extend .content-container;
+  padding: 12rem 0;
+
+  .horizontal-setting:first-child {
+    width: 60rem;
+  }
+}
+
+.horizontal-setting {
+  display: inline-block;
+  margin-top: 2.6rem;
+  margin-left: -4px;
+  vertical-align: top;
+}
+
+.intro-section {
+
+}
+

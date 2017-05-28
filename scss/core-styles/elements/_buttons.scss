@@ -2,7 +2,7 @@
 
 a {
 	text-decoration: none;
-	transition: color 0.2s ease;
+	transition: all 0.15s ease-out;
 }
 
 .link-inline {
@@ -10,37 +10,39 @@ a {
 	font-family: inherit;
 	font-size: inherit;
 	line-height: inherit;
-	text-decoration: underline;
-	text-decoration-color: $black-medium-dark-light;
+	padding-bottom: 0.5rem;
+	border-bottom: 1px solid $black-light-30;
 
 	&:hover {
-		color: $black-light;
-		text-decoration-color: $black-light;
+		color: $black-medium-dark-60;
+		border-bottom: 1px solid $black-medium-dark-15;
 	}
 
 	&:visited {
-		color: $black-medium-dark;
-		text-decoration-color: $black-light;
+		color: $black-medium-dark-60;
+		border-bottom: 1px solid $black-medium-dark-15;
 	}
 }
 
-button {
+button, .button-style {
 	background: transparent;
 	border: 1px solid $black-medium;
 	color: $black-dark;
 	font-family: DINWeb-CondBold;
 	text-transform: uppercase;
+
+	&:hover {
+		cursor: pointer;
+	}
 }
 
 .btn-main {
+	display: block;
 	font-size: 2.1rem;
+	margin: 0 auto;
+	margin-top: 4rem;
 	max-width: 26rem;
-	padding: 1.8rem 2rem;
-}
-
-.btn-item {
-	font-size: 1.4rem;
-	padding: 10px 60px;
+	padding: 1.6rem 2rem;
 }
 
 .btn-item-inverse {
@@ -50,9 +52,13 @@ button {
 
 .contact-link {
 	color: $black-light;
+	display: block;
 	font-size: 1.8rem;
+	margin-bottom: 3rem;
+	line-height: 1.8rem;
 
 	&:before {
+		color: $black-medium;
 		margin-right: 2.5rem;
 	}
 
