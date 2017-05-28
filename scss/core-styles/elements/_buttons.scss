@@ -58,12 +58,24 @@ button, .button-style {
 	line-height: 1.8rem;
 
 	&:before {
-		color: $black-medium;
 		margin-right: 2.5rem;
+		transition: color 0.4s ease;
 	}
 
 	&:before, &:after {
 		color: $black-medium-dark;
+	}
+
+	&:hover {
+		color: $black-medium-dark;
+
+		&:before {
+			color: $black-light;
+		}
+	}
+
+	&:visited {
+		color: $black-light;
 	}
 }
 
