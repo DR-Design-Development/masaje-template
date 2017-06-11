@@ -5,16 +5,43 @@
   @extend .content-container;
   padding: 12rem 0;
 
+  &:last-of-type {
+    padding-bottom: 0;
+  }
+
   .horizontal-setting:first-child {
     width: 60rem;
   }
 }
 
-.horizontal-setting {
-  display: inline-block;
-  margin-top: 2.6rem;
-  margin-left: -4px;
-  vertical-align: top;
+.horizontal-left {
+  float: left;
+  width: 48.333333%;
+}
+
+.horizontal-right {
+  float: left;
+}
+
+.horizontal-left-narrow {
+  float: left;
+  width: 30%;
+  margin-right: 18.333333%;
+}
+
+.block-hori-left {
+  float: left;
+  width: 48.333333%;
+
+  img {
+    margin: 0 auto;
+  }
+}
+
+.block-hori-right {
+  float: left;
+  width: 51.666667%;
+  max-width: 35.3rem;
 }
 
 .intro-section {

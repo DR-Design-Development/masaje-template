@@ -1,4 +1,4 @@
-
+@import "variables";
 
 .flat-list {
 	list-style: none;
@@ -8,9 +8,28 @@
 	li {
 		padding-left: 0;
 	}
+}
+
+.big-numbered-list {
+	counter-reset: my-counter;
+
+	li {
+		font-family: AGaramondPro;
+		color: $black-medium-dark;
+		font-size: 2.4rem;
+		margin-bottom: 2.5rem;
+		line-height: 6rem;
+	}
 
 	li:before {
-		content: '';
+		color: $black-dark;
+		content: counter(my-counter)".";
+		counter-increment: my-counter;
+		font-family: AGaramondPro-Bold;
+		font-size: 6rem;
+		margin-right: 4rem;
+		position: relative;
+		top: 1rem;
 	}
 }
 

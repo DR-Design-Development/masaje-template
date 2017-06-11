@@ -1,0 +1,49 @@
+@import "../core-styles/elements/variables";
+
+.thai-stage {
+  float: left;
+  margin-bottom: 9rem;
+  width: 44.583333%;
+
+  &:nth-child(even) {
+    margin-right: 10.833333%;
+  }
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+
+  i {
+    color: $black-dark;
+    float: left;
+    font-size: 7rem;
+    width: 20%;
+
+    &.icon-yoga {
+      text-align: center;
+    }
+  }
+}
+
+.thai-stage-text {
+  float: left;
+  width: 80%;
+}
+
+.stage-sub-title {
+  color: $black-dark;
+  font-family: DINWeb-CondBold;
+  font-size: 1.4rem;
+  line-height: 1.4rem;
+  margin-bottom: 2rem;
+}
+
+.stage-title {
+  color: $black-medium-dark;
+  font-family: AGaramondPro-Regular;
+  font-size: 2.4rem;
+  line-height: 2.4rem;
+  margin-bottom: 3rem;
+}
+
+

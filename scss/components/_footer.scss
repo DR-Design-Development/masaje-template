@@ -3,6 +3,7 @@
 footer {
   @extend .content-container;
   border-top: 1px solid $black-light-30;
+  margin-top: 18rem;
   padding: 6rem 0;
 
   .footer-content-block:first-child {
@@ -21,7 +22,7 @@ footer {
   .footer-contact-link {
     color: $black-medium-dark;
     font-family: AGaramondPro-Regular;
-    fonr-size: 1.8rem;
+    font-size: 1.8rem;
     margin-right: 2rem;
     text-decoration: none;
 
@@ -51,7 +52,7 @@ footer {
 }
 
 .logo-footer {
-  color: $black-medium;
+  color: $black-medium-dark;
   font-family: FatFrank;
   font-size: 1.8rem;
 
@@ -65,7 +66,7 @@ footer {
 .logo-footer-location {
   color: inherit;
   display: block;
-  margin: 0 auto;
+  margin: 0.5rem auto 0 auto;
   font-family: DINWeb-CondBold;
   font-size: 1rem;
   line-height: 0rem;

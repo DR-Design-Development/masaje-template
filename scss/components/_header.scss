@@ -1,7 +1,8 @@
 @import "../core-styles/elements/variables";
 @import "../core-styles/mixins/transform";
 
-.header-homepage {
+.header-homepage, .header-section {
+  @extend .content-container;
   height: 15rem;
   position: absolute;
   padding: 5rem 0;
@@ -11,13 +12,42 @@
   z-index: 100;
 }
 
+.header-homepage {
+
+  .logo-text {
+    color: $white;
+  }
+
+  .menu a {
+    color: $white;
+
+    &:hover {
+      color: $white-trans-50;
+    }
+  }
+}
+
+.header-section {
+
+  .logo-text {
+    color: $black-dark;
+  }
+
+  .menu a {
+    color: $black-dark-trans-50;
+
+    &:hover {
+      color: $black-dark-trans-15;
+    }
+  }
+}
+
 .logo-block {
   float: left;
   line-height: 2.2rem;
 }
 
 .logo-text {
-  color: $white;
   font-family: FatFrank;
   font-size: 2.8rem;
   text-transform: uppercase;
@@ -37,15 +67,10 @@
   float: right;
 
   a {
-    color: $white;
     font-family: DINWeb-CondMedium;
     font-size: 1.6rem;
     padding: 0 1.75rem;
     text-decoration: none;
-
-    &:hover {
-      color: $white-trans-50;
-
-    }
+    transition: color .2s ease;
   }
 }

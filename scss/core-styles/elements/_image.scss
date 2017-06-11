@@ -1,0 +1,21 @@
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+figure {
+  margin: 0;
+}
+
+.half-width-image-collage {
+  float: left;
+  margin: 0 2.5% 2.5% 0;
+  width: calc(50% - 1.5rem);
+
+  &:nth-child(odd) {
+    margin-right: 0;
+  }
+}
+
+

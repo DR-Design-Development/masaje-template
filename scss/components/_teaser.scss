@@ -1,0 +1,26 @@
+@import "../core-styles/elements/variables";
+
+.teaser {
+  border-top: 1px solid $black-medium-dark-light-50;
+  margin: 18rem auto 13rem auto;
+  width: 35rem;
+}
+
+.teaser-title {
+  color: $black-medium-dark;
+  font-family: AGaramondPro-Regular;
+  font-size: 2.4rem;
+  font-style: italic;
+  margin: 6rem 0 4rem 0;
+  line-height: 4rem;
+  text-align: center;
+}
+
+.teaser-content {
+  color: $black-light;
+  font-family: AGaramondPro-Regular;
+  font-size: 1.8rem;
+  line-height: 3rem;
+  text-align: center;
+}
+

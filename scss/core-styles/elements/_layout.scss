@@ -12,8 +12,36 @@ body {
   position: relative;
 }
 
+main {
+
+  .teaser:last-child {
+    margin-bottom: 0;
+  }
+}
+
 .content-container {
   max-width: 120rem;
   margin: 0 auto;
   width: 100%;
+}
+
+.viewer-content {
+  padding-top: 28rem;
+  @extend .content-container;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+.content-block {
+  padding-top: 18rem;
+  padding-bottom: 13rem;
+
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 }

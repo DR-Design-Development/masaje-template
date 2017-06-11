@@ -56,65 +56,13 @@
   font-style: normal;
 }
 
-@font-face {
-  font-family: 'icons';
-  src:  url('assets/fonts/icons.eot?jpcsso');
-  src:  url('assets/fonts/icons.eot?jpcsso#iefix') format('embedded-opentype'),
-  url('assets/fonts/icons.ttf?jpcsso') format('truetype'),
-  url('assets/fonts/icons.woff?jpcsso') format('woff'),
-  url('assets/fonts/icons.svg?jpcsso#icons') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
 html {
   font-size: 62.5%;
 }
 
 body {
-  font-family: AGaramondPro-Regular;
-  font-size: 1.8rem;
-  line-height: 3rem;
-  color: $black-light;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-.icon:before {
-  /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'icons' !important;
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-.icon-mail:before {
-  content: "\e905";
-}
-.icon-yoga:before {
-  content: "\e900";
-}
-.icon-medicine-bowl:before {
-  content: "\e901";
-}
-.icon-yin-yang:before {
-  content: "\e902";
-}
-.icon-pranava:before {
-  content: "\e903";
-}
-.icon-lotus:before {
-  content: "\e904";
-}
-.icon-phone:before {
-  content: "\e909";
 }
 
 h1 {
@@ -137,11 +85,18 @@ hr {
 }
 
 .content-text {
-  
+  font-family: AGaramondPro-Regular;
+  font-size: 1.8rem;
+  line-height: 3rem;
+  color: $black-light;
+}
+
+.content-text-space {
+  margin-bottom: 4rem;
 }
 
 // Chapter styles
-.chapter-main-title {
+.chapter-main-title, .section-title {
   color: $black-dark;
   font-family: AGaramondPro-Bold;
   font-size: 7rem;
@@ -149,7 +104,7 @@ hr {
   line-height: 7rem;
 }
 
-.chapter-sub-title {
+.chapter-sub-title, .section-sub-title {
   color: $black-dark;
   font-family: DINWeb-CondBold;
   font-size: 1.4rem;
@@ -188,9 +143,18 @@ hr {
   color: $black-medium;
   font-family: AGaramondPro-Regular;
   font-size: 2.4rem;
-  margin-bottom: 7rem;
   max-width: 55rem;
   line-height: 4rem;
+}
+
+.chapter-intro-text {
+  @extend .intro-text;
+  margin-bottom: 7rem;
+}
+
+.section-intro-text {
+  @extend .intro-text;
+  margin-bottom: 13rem;
 }
 
 .centered-text {
