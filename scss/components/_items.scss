@@ -1,0 +1,149 @@
+@import "../core-styles/elements/variables";
+@import "../core-styles/mixins/transform";
+
+.item {
+  float: left;
+  margin: 0 11.11% 9rem 0;// 134/1200
+  max-width: 20rem;
+}
+
+.massage-item {
+
+  &:nth-of-type(4n) {
+    margin: 0 0 9rem 0;// 134/1200
+  }
+
+  &:last-of-type {
+    margin: 0 0 9rem -4px;
+  }
+}
+
+.blog-item {
+
+  &:nth-of-type(3n) {
+    margin: 0 0 9rem 0;// 134/1200
+  }
+
+  &:last-of-type {
+    margin: 0 0 9rem -4px;
+  }
+}
+
+.massage-offer {
+  background: $black;
+  box-shadow: -2rem -2rem 0 0 $black, 2rem -2rem 0 0 $black, 2rem 2rem 0 0 $black, -2rem 2rem 0 0 $black;
+  position: relative;
+}
+
+.content-block {
+  .massage-item:nth-child(4n) {
+    margin: 0 0 9rem 0;// 134/1200
+  }
+}
+
+.massage-price-style {
+  color: $black-dark;
+  display: block;
+  font-family: AGaramondPro-Bold;
+  font-size: 6rem;
+  margin-bottom: 5.5rem;
+  line-height: 6rem;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.massage-price {
+  @extend .massage-price-style;
+  color: $black-dark;
+}
+
+.massage-discount {
+  @extend .massage-price-style;
+  color: $white;
+  position: relative;
+}
+
+.massage-price-discount {
+  bottom: -3.5rem;
+  display: block;
+  font-size: 1.6rem;
+  left: 50%;
+  position: absolute;
+  @include transform-translateX(-50%);
+  width: 100%;
+
+  .discount-star {
+
+  }
+
+}
+
+.massage-divider {
+  margin-bottom: 2.5rem;
+}
+
+.massage-offer-divider {
+  @extend .massage-divider;
+  background: rgba(255,255,255,0.3);
+}
+
+.massage-name-style {
+  font-family: DINWeb-CondBold;
+  font-size: 1.4rem;
+  line-height: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.massage-name {
+  @extend .massage-name-style;
+  color: $black-dark;
+}
+
+.offer-name {
+  @extend .massage-name-style;
+  color: $white;
+}
+
+.item-sub-info-style {
+  display: block;
+  font-family: DINWeb-CondBold;
+  font-size: 1.2rem;
+  margin-bottom: 3rem;
+  line-height: 1.2rem;
+  text-transform: uppercase;
+}
+
+.item-sub-info {
+  @extend .item-sub-info-style;
+  color: $black-medium;
+}
+
+.offer-sub-info {
+  @extend .item-sub-info-style;
+  color: $grey-light;
+}
+
+.offer-text {
+  @extend .content-text;
+  color: $grey-light;
+}
+
+.btn-reserve {
+  font-size: 1.4rem;
+  margin-top: 4rem;
+  padding: 1rem 0 1.1rem 0;
+  width: 100%;
+}
+
+.btn-reserve-massage {
+  @extend .btn-reserve;
+  border: 1px solid $black-dark;
+}
+
+.btn-reserve-offer {
+  @extend .btn-reserve;
+  color: $white;
+  border: 1px solid $white;
+}
+
