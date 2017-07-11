@@ -14,31 +14,33 @@
         <![endif]-->
         <link rel="stylesheet" href="style.css">
     </head>
-        <body>
+    <body>
         <header class="header-section" data-header-section>
-            <h1 class="logo-text">
-                Masaje Tailand&eacute;s<span class="logo-location">Barcelona</span>
+            <h1 class="logo-block">
+                <a href="index.html" class="logo-text">
+                    Masaje Tailandes <span class="logo-location">Barcelona</span>
+                </a>
             </h1>
             <nav class="menu">
-                <a href="sobre-masaje-tailandes.html">
+                <a href="sobre-masaje-tailandes.html" data-menu-link>
                     SOBRE MASAJE TAILANDES
                 </a>
-                <a href="sobre-daniel-ramirez-escudero.html">
+                <a href="sobre-daniel-ramirez-escudero.html" data-menu-link>
                     SOBRE MI
                 </a>
-                <a href="reservar-cita-masaje-tailandes.html">
+                <a href="reservar-cita-masaje-tailandes.html" data-menu-link>
                     CITA
                 </a>
-                <a href="blog-masaje-tailandes.html">
+                <a href="blog-masaje-tailandes.html" data-menu-link>
                     BLOG
                 </a>
-                <a href="contacto.html">
+                <a href="contacto.html" data-menu-link>
                     CONTACTO
                 </a>
             </nav>
         </header>
         <main class="viewer-content">
-            <section class="content-wrapper">
+            <article class="content-wrapper">
                 <h2 class="section-sub-title">
                     A SU SERVICIO
                 </h2>
@@ -48,21 +50,19 @@
                 <p class="section-intro-text">
                     Puede ponerse en contacto para cualquier duda respecto al masaje tailandés, colaboraciones, reservar futuras sesiones e incluso personalizar un masaje según una patología en concreto. Puede hacerlo vía email o teléfono.
                 </p>
-                <div class="content-block">
-                    <a href="tel:+34619737212" class="contact-link">
-                        + 34 619 737 212
-                    </a>
-                    <a href="mailto:info@masaje-tailandes.com" class="contact-link">
-                        info@masaje-tailandes.com <span class="contacto-extra-info">(Información general)</span>
-                    </a>
-                    <a href="mailto:citas@masaje-tailandes.com" class="contact-link">
-                        citas@masaje-tailandes.com <span class="contacto-extra-info">(Reservas, modificaciónes o cancelaciones)</span>
-                    </a>
-                </div>
-            </section>
+                <a href="tel:+34619737212" class="icon icon-phone contact-link">
+                    + 34 619 737 212
+                </a>
+                <a href="mailto:info@masaje-tailandes.com" class="icon icon-mail contact-link contact-link-info">
+                    info@masaje-tailandes.com
+                </a>
+                <a href="mailto:citas@masaje-tailandes.com?subject=Me gustaría reservar una sesión" class="icon icon-mail contact-link contact-link-reservations">
+                    citas@masaje-tailandes.com
+                </a>
+            </article>
         </main>
         <footer>
-            <div class="footer-contact-section">
+            <div class="footer-content-block">
                 <a href="tel:+34619737212" class="footer-contact-link">
                     + 34 619 737 212
                 </a>
@@ -70,7 +70,7 @@
                     info@masaje-tailandes.com
                 </a>
             </div>
-            <div class="footer-social-section">
+            <div class="footer-content-block">
                 <a href="#" class="footer-social-link">
                     INSTRAGRAM
                 </a>
@@ -81,10 +81,10 @@
                     TWITTER
                 </a>
             </div>
-            <div class="footer-brand-section">
-                <a href="index.html">
-                    <img src="" alt="">
-                    MASAJE TAILANDES <span class="logo-location">BARCELONA</span>
+            <div class="footer-content-block">
+                <a href="index.html" class="logo-footer">
+                    <img src="assets/images/logo-footer.png" alt="">
+                    MASAJE TAILANDES <span class="logo-footer-location">BARCELONA</span>
                 </a>
             </div>
         </footer>

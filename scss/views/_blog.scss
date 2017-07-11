@@ -1,0 +1,26 @@
+@import "../core-styles/elements/variables";
+
+.blog-items {
+  display: inline-block;
+  margin: 0 11.11% 0 -4px;
+  vertical-align: top;
+}
+
+.latest-posts {
+  display: inline-block;
+  margin: 0 0 0 -4px;
+  vertical-align: top;
+}
+
+.blog-date {
+  display: block;
+  color: $black-light;
+  font-family: DINWeb-CondBold;
+  margin-bottom: 2rem;
+  line-height: 1.6rem;
+  font-size: 1.6rem;
+}
+
+.blog-main-picture {
+  margin-top: 13rem;
+}

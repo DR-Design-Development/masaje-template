@@ -36,12 +36,19 @@
   img {
     margin: 0 auto;
   }
+
+  p {
+    max-width: 35rem;
+  }
 }
 
 .block-hori-right {
   float: left;
   width: 51.666667%;
-  max-width: 35.3rem;
+
+  p {
+    max-width: 35rem;
+  }
 }
 
 .intro-section {

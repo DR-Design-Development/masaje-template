@@ -14,8 +14,10 @@ body {
 
 main {
 
-  .teaser:last-child {
+  .teaser:last-child,
+  .content-block:last-child {
     margin-bottom: 0;
+    padding-bottom: 0;
   }
 }
 
