@@ -16,8 +16,23 @@
   i {
     color: $black-dark;
     float: left;
-    font-size: 7rem;
+    font-size: 5rem;
     width: 20%;
+
+    //@include screen($media-tablet-portrait,$media-tablet-landscape) {
+    //  &.icon-lotus {
+    //    margin-top: 2.6rem;
+    //  }
+    //
+    //  &.icon-pranava {
+    //    margin-top: 2.5rem;
+    //  }
+    //}
+
+
+    @include min-screen($media-tablet-landscape) {
+      font-size: 7rem;
+    }
 
     &.icon-yoga {
       text-align: center;
@@ -41,9 +56,13 @@
 .stage-title {
   color: $black-medium-dark;
   font-family: AGaramondPro-Regular;
-  font-size: 2.4rem;
+  font-size: 2.16rem;
   line-height: 2.4rem;
   margin-bottom: 3rem;
+
+  @include min-screen($media-tablet-landscape) {
+    font-size: 2.4rem;
+  }
 }
 
 

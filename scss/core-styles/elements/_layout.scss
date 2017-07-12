@@ -1,5 +1,6 @@
 @import "variables";
 @import "../mixins/transform";
+@import "../mixins/media-queries";
 
 * {
   box-sizing: border-box;
@@ -22,9 +23,40 @@ main {
 }
 
 .content-container {
-  max-width: 120rem;
-  margin: 0 auto;
-  width: 100%;
+  padding-left: 2rem;
+  padding-right: 2rem;
+
+  @include min-screen($media-tablet-mini){
+    padding-left: 3.6rem;
+    padding-right: 3.6rem;
+  }
+
+  @include min-screen($media-tablet-portrait){
+    padding-left: 6.4rem;
+    padding-right: 6.4rem;
+  }
+
+  @include min-screen($media-laptop){
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+
+  @include min-screen($media-desktop){
+    padding-left: 12rem;
+    padding-right: 12rem;
+    max-width: 142.5rem;
+  }
+
+
+
+  //@include min-screen($media-desktop){
+  //  max-width: 120rem;
+  //}
+  //
+  //@include min-screen($media-desktop-large){
+  //  max-width: 120rem;
+  //}
+
 }
 
 .viewer-content {

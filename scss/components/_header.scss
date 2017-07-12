@@ -3,13 +3,17 @@
 
 .header-homepage, .header-section {
   @extend .content-container;
-  height: 15rem;
   position: absolute;
-  padding: 5rem 0;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
   left: 50%;
   @include transform-translateX(-50%);
   width: 100%;
   z-index: 100;
+
+  @include min-screen($media-tablet-landscape) {
+    height: 15rem;
+  }
 }
 
 .header-homepage {
@@ -43,8 +47,12 @@
 }
 
 .logo-block {
-  float: left;
   line-height: 2.2rem;
+
+  @include min-screen($media-tablet-landscape) {
+    float: left;
+  }
+
 }
 
 .logo-text {
@@ -56,21 +64,33 @@
 
 .logo-location {
   color: inherit;
-  display: block;
   font-family: DINWeb-CondBold;
   font-size: 1.4rem;
+  margin-left: 0.5rem;
   text-transform: uppercase;
   text-decoration: none;
+
+  @include min-screen($media-tablet-landscape) {
+    display: block;
+    margin-left: 0;
+  }
 }
 
 .menu {
-  float: right;
+
+  @include min-screen($media-tablet-landscape) {
+    float: right;
+  }
 
   a {
     font-family: DINWeb-CondMedium;
     font-size: 1.6rem;
-    padding: 0 1.75rem;
+    padding-right: 2rem;
     text-decoration: none;
     transition: color .2s ease;
+
+    @include min-screen($media-tablet-landscape) {
+      padding: 0 1.75rem;
+    }
   }
 }
