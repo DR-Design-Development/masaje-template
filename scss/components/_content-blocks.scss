@@ -3,15 +3,16 @@
 .home-text-block {
   background: $white;
   @extend .content-container;
-  padding: 12rem 0;
-
-  &:last-of-type {
-    padding-bottom: 0;
-  }
+  padding-bottom: 12rem;
+  padding-top: 12rem;
 
   .horizontal-setting:first-child {
     width: 60rem;
   }
+}
+
+main .home-text-block:last-child {
+  padding-bottom: 0;
 }
 
 .horizontal-left {

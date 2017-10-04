@@ -1,31 +1,56 @@
 @import "../core-styles/elements/variables";
 @import "../core-styles/mixins/transform";
+@import "../core-styles/mixins/media-queries";
 
 .brand-block {
-  bottom: 12rem;
+  bottom: 4rem;
   position: absolute;
   left: 50%;
   @include transform-translateX(-50%);
+  width: 70%;
+
+  @include min-screen($media-tablet-mini){
+    bottom: 12rem;
+    width: auto;
+  }
 
   img {
     display: block;
     margin: 0 auto 2.5rem auto;
+    width: 20%;
+
+    @include min-screen($media-tablet-mini){
+      width: auto;
+    }
   }
 }
 
 .brand-slogan {
   color: $white;
   font-family: DINWeb-CondBold;
-  font-size: 1.4rem;
+  font-size: 1rem;
   line-height: 1.8rem;
-  margin-bottom: 2rem;
+  margin-bottom: 0;
   text-align: center;
+
+  @include min-screen($media-tablet-mini){
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+    width: auto;
+  }
 }
 
 .brand-title {
   color: $white;
   font-family: AGaramondPro-Bold;
-  font-size: 7rem;
-  line-height: 7rem;
+  font-size: 3rem;
+  margin: 0;
+  line-height: 4rem;
   text-align: center;
+
+  @include min-screen($media-tablet-mini){
+    font-size: 7rem;
+    margin: auto;
+    line-height: 7rem;
+  }
 }

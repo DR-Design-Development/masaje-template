@@ -3,17 +3,63 @@
 
 .header-homepage, .header-section {
   @extend .content-container;
-  position: absolute;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  left: 50%;
-  @include transform-translateX(-50%);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  position: fixed; // Temporal as it doesn't work on mobile, just demo
+  top: 0;
   width: 100%;
-  z-index: 100;
+  z-index: 1;
+
+  @include min-screen($media-tablet-mini) {
+    position: absolute;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    left: 50%;
+    @include transform-translateX(-50%);
+  }
 
   @include min-screen($media-tablet-landscape) {
     height: 15rem;
   }
+
+  &.mobile-background {
+    //background: rgba($black-light-40);
+    //border-bottom: 1px solid rgba($black-light-40);
+    background: transparentize($black-light,0.6); // Temporal: delete once .mobile-background works
+    border-bottom: 1px solid transparentize($black-light,0.6); // Temporal: delete once .mobile-background works
+  }
+}
+
+.menu {
+  background: rgba($black-dark, .95);
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: all .2s ease;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+
+  a {
+    color: $white;
+
+    display: block;
+    margin-bottom: 40px;
+    text-align: center;
+    padding: 0;
+
+    &:hover {
+      color: $white-trans-50;
+    }
+  }
+}
+
+.menu-items {
+  position: absolute;
+  top: 50%;
+  transform: translate(50%,-50%);
+  width: 50%;
 }
 
 .header-homepage {
@@ -21,14 +67,15 @@
   .logo-text {
     color: $white;
   }
+}
 
-  .menu a {
-    color: $white;
-
-    &:hover {
-      color: $white-trans-50;
-    }
-  }
+.btn-close-menu {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  font-size: 5rem;
+  color: white;
+  line-height: 0rem;
 }
 
 .header-section {
@@ -46,8 +93,27 @@
   }
 }
 
+.btn-menu-mobile {
+  border: 0;
+  color: $white;
+  float: right;
+  font-size: 1.4rem;
+
+  @include min-screen($media-tablet-mini) {
+    display: none;
+  }
+}
+
 .logo-block {
-  line-height: 2.2rem;
+  margin: 0;
+  line-height: 1.4rem;
+  padding-bottom: 1rem;
+
+  @include min-screen($media-tablet-mini) {
+    margin: auto;
+    padding-bottom: auto;
+    line-height: 2.2rem;
+  }
 
   @include min-screen($media-tablet-landscape) {
     float: left;
@@ -56,19 +122,34 @@
 }
 
 .logo-text {
+  float: left;
   font-family: FatFrank;
-  font-size: 2.8rem;
+  font-size: 1.4rem;
   text-transform: uppercase;
   text-decoration: none;
+
+  @include min-screen($media-tablet-mini) {
+    font-size: 2.8rem;
+    float: none;
+  }
 }
 
 .logo-location {
   color: inherit;
+  display: block;
   font-family: DINWeb-CondBold;
-  font-size: 1.4rem;
-  margin-left: 0.5rem;
+  font-size: 0.7rem;
+  margin-left: 0;
+  line-height: 0.7rem;
   text-transform: uppercase;
   text-decoration: none;
+
+  @include min-screen($media-tablet-mini) {
+    display: auto;
+    font-size: 1.4rem;
+    margin-left: 0.5rem;
+
+  }
 
   @include min-screen($media-tablet-landscape) {
     display: block;
@@ -77,6 +158,8 @@
 }
 
 .menu {
+  //display: none; // After it needs to be set to not show the mobile menu
+
 
   @include min-screen($media-tablet-landscape) {
     float: right;
@@ -92,5 +175,12 @@
     @include min-screen($media-tablet-landscape) {
       padding: 0 1.75rem;
     }
+  }
+}
+
+.menu-open-btn {
+
+  @include min-screen($media-tablet-portrait) {
+    display: none;
   }
 }
